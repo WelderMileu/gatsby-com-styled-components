@@ -10,7 +10,7 @@ export const Jumbotrom = props => {
 
 export const Container = props => {
 	return(
-		<div className="container mt-3 d-flex">
+		<div className="container mt-3 d-flex flex-wrap">
 			{props.children}
 		</div>
 	)
